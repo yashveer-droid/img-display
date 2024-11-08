@@ -25,7 +25,7 @@
 <body>
     <div class="image-container">
         <h1>Your Image</h1>
-        <img src="qrcode_github.com.png" alt="Displayed Image">
+        <img src="qrcode_github.com.png" alt="Displayed Image" onerror="console.log('Error loading image'); this.style.border='1px solid red';" onload="console.log('Image loaded successfully');">
     </div>
 </body>
 </html>
